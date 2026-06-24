@@ -1,56 +1,85 @@
-# RAJA
+# RAJA Fashion Style Website
 
 ## Project Overview
 
-This website is a beginner fashion web development project created using HTML, CSS and JavaScript.
+RAJA Fashion Style Website is a five-page fashion portfolio project created using HTML, CSS and JavaScript.
 
-The purpose of this project is to practise front-end development skills while creating a modern fashion-style website.
+The website is inspired by modern commercial fashion websites and includes women’s fashion, men’s fashion, an about page and a contact page.
 
-This is not an official Zara website. It is a student practice project inspired by minimalist fashion web design.
+This project was created for my university portfolio and GitHub project to demonstrate beginner front-end web development skills.
 
 ## User Stories
 
 ### First-Time Visitor
-- As a visitor, I want to understand the purpose of the fashion website.
-- As a visitor, I want to view different fashion collections.
-- As a visitor, I want the website to be simple and easy to navigate.
+- As a visitor, I want to understand the purpose of the website quickly.
+- As a visitor, I want to browse women’s and men’s fashion collections.
+- As a visitor, I want the website to be easy to navigate.
 
 ### Returning Visitor
-- As a returning visitor, I want to quickly find the collections section.
-- As a returning visitor, I want to use the contact form easily.
+- As a returning visitor, I want to quickly access the latest fashion sections.
+- As a returning visitor, I want to contact the website owner easily.
 
-### Recruiter / Employer
-- As a recruiter, I want to see HTML, CSS and JavaScript skills.
-- As a recruiter, I want to see a clean project structure.
-- As a recruiter, I want to see that the website is deployed using GitHub Pages.
+### Recruiter / Assessor
+- As a recruiter or assessor, I want to see clear HTML, CSS and JavaScript skills.
+- As a recruiter or assessor, I want to see a professional GitHub project.
+- As a recruiter or assessor, I want to see that the website is deployed online.
 
 ## Wireframes
 
+The planned website layout includes:
+
+### Home Page
+- Header
+- Navigation menu
+- Fashion video
+- Welcome text
+- Featured collections
+
+### Women Page
+- Header
+- Navigation menu
+- Women fashion gallery
+- Back to Home button
+- Footer
+
+### Men Page
+- Header
+- Navigation menu
+- Men fashion gallery
+- Back to Home button
+- Footer
+
+### About Me Page
+- Header
+- Navigation menu
+- About me text
+- Personal image
+- Footer
+
+### Contact Page
+- Header
+- Navigation menu
+- Contact form
+- Social media/contact details
+- Footer
+
 Wireframes were planned for:
-
-- Mobile screen
-- Tablet screen
-- Desktop screen
-
-Planned layout:
-
-Header  
-Navigation  
-Home Section  
-Collections Section  
-About Section  
-Contact Section  
-Footer  
+- Mobile
+- Tablet
+- Desktop
 
 ## Features
 
-- Header section
-- Navigation links
-- Fashion collections cards
-- About project section
+- Five-page website structure
+- Home page with video
+- Women fashion collection page
+- Men fashion collection page
+- About Me page
 - Contact form
-- JavaScript message interaction
-- Responsive card layout
+- Back to Home button
+- Responsive layout
+- Image gallery cards
+- JavaScript confirmation message
 
 ## Technologies Used
 
@@ -63,12 +92,33 @@ Footer
 
 ## Testing
 
+### Manual Testing
+
 | Test | Expected Result | Status |
 |---|---|---|
-| Navigation links | Move to correct page section | Pass |
-| Contact button | Shows confirmation message | Pass |
-| Website layout | Displays clearly on desktop | Pass |
-| CSS styling | Loads correctly | Pass |
+| Home page opens | Website loads correctly | Pass |
+| Navigation links | Links open correct pages | Pass |
+| Women page | Women fashion items display | Pass |
+| Men page | Men fashion items display | Pass |
+| About page | Text and image display correctly | Pass |
+| Contact form | User can enter name, email and message | Pass |
+| Send Message button | JavaScript message appears | Pass |
+| Back to Home button | Returns user to home page | Pass |
+| Images | Images display correctly | Pass |
+| Video | Homepage video plays correctly | Pass |
+
+### Responsive Testing
+
+The website was checked on:
+- Desktop screen
+- Laptop screen
+- Mobile view using browser developer tools
+
+### Browser Testing
+
+The website was tested on:
+- Google Chrome
+- Microsoft Edge
 
 ## Deployment
 
@@ -77,20 +127,37 @@ This project was deployed using GitHub Pages.
 Deployment steps:
 
 1. Created a GitHub repository.
-2. Uploaded index.html, style.css, script.js and README.md.
+2. Uploaded all project files:
+   - index.html
+   - women.html
+   - men.html
+   - about.html
+   - contact.html
+   - style.css
+   - script.js
+   - images folder
+   - videos folder
+   - README.md
 3. Opened repository Settings.
 4. Selected Pages.
-5. Selected main branch and /root folder.
-6. Saved the settings.
-7. GitHub Pages generated the live website link.
+5. Chose Deploy from a branch.
+6. Selected main branch.
+7. Selected /root folder.
+8. Saved the settings.
+9. GitHub Pages generated the live website link.
 
 ## Credits
 
 ### Code
-- Code written as part of web development learning practice.
+- HTML, CSS and JavaScript written as part of my web development learning practice.
+- Guidance from Code Institute learning materials.
 
 ### Content
-- Fashion content written for educational purposes.
+- Fashion descriptions written for educational portfolio purposes.
+- About Me content written personally.
+
+### Media
+- Images and video used for educational web development practice.
 
 ### Acknowledgements
 - Code Institute
