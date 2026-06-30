@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact RAJA Fashion Style, a responsive fashion portfolio website created using HTML, CSS and JavaScript.">
     <title>RAJA Fashion Style | Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,32 +14,49 @@
     <p>Get in touch with RAJA Fashion Style</p>
 </header>
 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="women.html">Women</a>
+    <a href="men.html">Men</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
 <section id="contact">
-    <a href="index.html" class="back-home">
-    🏠 Back to Home
-</a> 
+    <a href="index.html" class="back-home">🏠 Back to Home</a>
+
     <h2>Contact Form</h2>
 
     <form>
-        <input type="text" placeholder="Your name" required>
-        <input type="email" placeholder="Your email" required>
-        <textarea placeholder="Your message" required></textarea>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Your email" required>
+
+        <label for="messageText">Your Message</label>
+        <textarea id="messageText" placeholder="Your message" required></textarea>
+
         <button type="button" onclick="showMessage()">Send Message</button>
     </form>
 
     <p id="message"></p>
 
     <div class="contact-info">
-        <p>Email: sarvamsky@gmail.com</p>
+        <p>Email: sarvamsky [at] gmail [dot] com</p>
         <p>Location: United Kingdom</p>
         <p>GitHub: rajakokila-m</p>
-        <p>LinkedIn: www.linkedin.com/in/rajakokila-muralitharan-4b3689120</p>
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/rajakokila-muralitharan-4b3689120" target="_blank">
+                Rajakokila Muralitharan
+            </a>
+        </p>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2026 RAJA Fashion Style</p>
+    <p>&copy; 2026 RAJA Fashion Style. Built by Rajakokila Muralitharan.</p>
 </footer>
 
 <script src="script.js"></script>
