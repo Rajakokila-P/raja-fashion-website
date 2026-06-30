@@ -11,3 +11,4 @@ function showMessage() {
 
     message.textContent = "Thank you. Your message has been received.";
 }
+Add contact form validation
